@@ -1,31 +1,83 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>四川火锅介绍</title>
-    <style>
-        /* 样式与chinese.html相同，可以复用或放在外部CSS文件中 */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .header {
-            margin-bottom: 20px;
-            font-size: 2em;
-            color: #333;
-        }
-        .content {
-            text-align: left;
-        }
-    </style>
-</head>
-<body>
-    <div class="header">四川火锅介绍</div>
-    <div class="content">
-        <p>四川火锅是四川美食的代表之一，以其麻辣鲜香而闻名于世。在这里，你可以选择各种口味的火锅底料，如麻辣、清汤和菌汤等，再配上丰富的食材，如牛肉、羊肉、豆皮和各种蔬菜，享受一场味觉盛宴。</p>
-        <!-- 可以添加更多关于四川火锅的内容 -->
-    </div>
-</body>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Introduction to Sichuan Hot Pot</title>  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">  
+    <style>  
+        /* Beautify the overall page */  
+        body {  
+            font-family: 'Arial', sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            background-color: #f4f4f9;  
+            color: #333;  
+        }  
+        .header {  
+            background-color: #ff5733;  
+            color: white;  
+            text-align: center;  
+            padding: 50px 0;  
+            font-size: 36px;  
+        }  
+        .content {  
+            padding: 20px;  
+            max-width: 800px;  
+            margin: 0 auto;  
+            background-color: white;  
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+            border-radius: 8px;  
+        }  
+        .content img {  
+            max-width: 100%;  
+            height: auto;  
+            border-radius: 8px;  
+        }  
+        .back-button {  
+            position: fixed;  
+            top: 20px;  
+            left: 20px;  
+            z-index: 1000;  
+            background-color: #ff5733;  
+            color: white;  
+            border: none;  
+            padding: 10px 20px;  
+            border-radius: 5px;  
+            font-size: 16px;  
+            cursor: pointer;  
+            transition: background-color 0.3s ease;  
+        }  
+        .back-button:hover {  
+            background-color: #e64a19;  
+        }  
+    </style>  
+</head>  
+<body>  
+  
+    <!-- Back button -->  
+    <button class="back-button" onclick="window.history.back();"><i class="fas fa-arrow-left"></i> Back</button>  
+  
+    <!-- Page header -->  
+    <div class="header">  
+        Introduction to Sichuan Hot Pot  
+    </div>  
+  
+    <!-- Page content -->  
+    <div class="content">  
+        <h2>The Charm of Sichuan Hot Pot</h2>  
+        <p>Sichuan Hot Pot, as one of the four major hot pots in China, is famous for its spicy and fragrant taste. It is not only a delicacy but also a culture and a way of life.</p>  
+        <p>The base ingredient of Sichuan Hot Pot is usually boiled with chili peppers, Sichuan peppers, beef fat, and various spices, resulting in a rich and varied flavor. During the cooking process, various ingredients such as meat, seafood, and vegetables are boiled in the rolling hot pot, fully absorbing the aroma of the base ingredient, leaving a lingering taste.</p>  
+        <p>Whether in cold winter or hot summer, Sichuan Hot Pot can bring people endless gustatory enjoyment. It not only satisfies people's pursuit of delicacies but also lets them feel the enthusiasm and hospitality of the Sichuan people.</p>  
+          
+        <!-- Example image -->  
+        <img src="https://via.placeholder.com/400x300?text=Sichuan+Hot+Pot+Image" alt="Sichuan Hot Pot">  
+          
+        <p>Above is an example image of Sichuan Hot Pot, showcasing its rich ingredients and tempting color. If you haven't tasted Sichuan Hot Pot yet, try it out, and I believe you will fall in love with this unique culinary experience.</p>  
+    </div>  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>  
+</body>  
 </html>
